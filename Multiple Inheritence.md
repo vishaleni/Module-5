@@ -23,7 +23,31 @@ To write a Python program to calculate **Add, Sub & Division** using **Multiple 
 6. **Output**
    - Display the results of the three operations.
 
-## 💻 Program 
-Add code here
+## 💻 Program:
+```class value:
+    def __init__(self,a,b):
+        self.a=a
+        self.b=b
+class division(value):
+    def add(self):
+        
+        print(self.a+self.b)
+    def sub(self):
+        print(self.a - self.b)
+    def div(self):
+        print(self.a/self.b)
+a=int(input())
+b=int(input())
+c=division(a,b)
+c.add()
+c.sub()
+c.div()
+```
+`
 ## Output Example
+<img width="1089" height="208" alt="image" src="https://github.com/user-attachments/assets/75013be7-2e07-44bf-bab3-3ab4a6f04ddd" />
+
+Result:
+Thus, the programme successfully executed
+
 
